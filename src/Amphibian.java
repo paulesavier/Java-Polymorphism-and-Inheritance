@@ -3,7 +3,6 @@ public abstract class Amphibian {
     abstract void move();
 
     public Amphibian(String name) {
-
         this.name = name;
     }
 
@@ -12,6 +11,6 @@ public abstract class Amphibian {
     }
 
     public void breathe() {
-        System.out.println("Я " + name + ", и я умею дышать как под водой, так и на суше.");
+        System.out.println("Я амфибия, и я умею дышать как под водой, так и на суше.");
     }
 }
